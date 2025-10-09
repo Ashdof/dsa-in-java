@@ -21,7 +21,7 @@ public class Progression {
     /** Returns the next value of the progression */
     public long nextValue() {
 	long answer = current;
-	adnvance();
+	advance();
 	
 	return answer;
     }
