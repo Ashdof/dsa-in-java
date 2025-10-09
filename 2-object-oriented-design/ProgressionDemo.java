@@ -5,7 +5,8 @@ public class ProgressionDemo {
 	
 	Progression progression;
 	ArithmeticProgression arithmeticProgression;
-	int endValue = 20, step = 4;
+	GeometricProgression geometricProgression;
+	int endValue = 20, step = 4, base = 3;
 
 	progression = new Progression();
 	System.out.print("Normal progression: ");
@@ -14,5 +15,9 @@ public class ProgressionDemo {
 	arithmeticProgression = new ArithmeticProgression(step);
 	System.out.print("Arithmetic progression: ");
 	arithmeticProgression.printProgression(endValue);
+
+	geometricProgression = new GeometricProgression(base);
+	System.out.print("Geometric progression: ");
+	geometricProgression.printProgression(endValue);
     }
 }
