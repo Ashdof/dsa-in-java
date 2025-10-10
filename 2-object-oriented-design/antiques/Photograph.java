@@ -1,4 +1,4 @@
-package interfaces.impl;
+package antiques;
 
 import interfaces.Sellable;
 
