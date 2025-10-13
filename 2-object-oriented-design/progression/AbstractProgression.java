@@ -23,9 +23,9 @@ public abstract class AbstractProgression {
     }
 
     public void printProgression(int n) {   // this is a concrete method
-	System.out.println(nextValue());  // print first value without leading space
+	System.out.print(nextValue());  // print first value without leading space
 	for (int j = 1; j < n; j++)
-	    System.out.println(" " + nextValue()); // print leading space before others
+	    System.out.print(" " + nextValue()); // print leading space before others
 	System.out.println();  // end the line
     }
 
