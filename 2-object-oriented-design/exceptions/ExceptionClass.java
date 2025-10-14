@@ -38,10 +38,15 @@ public class ExceptionClass {
     protected void divideSeries() {
 	int result = valueTwo;
 	while (valueTwo > valueOne) {
-	    result /= valueOne;
-	    decrement();
+	    try {
+		result /= valueOne;
+		decrement();
 
-	    System.out.print(result + " ");
+		System.out.print(result + " ");
+	    } catch(ArithmeticException exception) {
+		System.out.printf("Error: Dividing by zero (0): %d / %d", result, valueOne);
+		break;
+	    }
 	}
 
 	System.out.println();
