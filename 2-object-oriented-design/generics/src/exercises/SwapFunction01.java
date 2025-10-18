@@ -1,4 +1,4 @@
-package src.exercises;
+package generics.src.exercises;
 
 public class SwapFunction01 {
 
