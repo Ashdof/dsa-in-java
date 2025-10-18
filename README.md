@@ -36,8 +36,8 @@ Each topic includes:
 ## 💻 Development Environment
 
 - **Programming Language:** Java  
-- **IDE / Editor:** [Emacs](https://www.gnu.org/software/emacs/)  
-- **Version Control:** Git  
+- **IDE / Editor:** [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/?section=linux)  
+- **Version Control:** Git
 - **Repository Hosting:** GitHub  
 
 All code is written and managed using Emacs, with Git for version control and synchronization.
